@@ -1,0 +1,106 @@
+<!--<p>inscription-sticky works!</p>
+<div>
+    <img src="https://images.unsplash.com/photo-1544465544-1b71aee9dfa3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvfGVufDB8fDB8fA%3D%3D&ixpb=rb-1.2.1&w=1000&q=80" alt="">
+</div>-->
+
+<div style="padding: 2rem 0;">
+<section id="hero1" class="hero">
+    <div class="inner">
+      <div class="copy">
+        <div class="container">
+            <div  class="row">
+      <div class="col-md-6 my-6">
+        <h1>Avantages pour les patients</h1><br>
+             <p>Une réponse claire à votre question</p>
+             <p>Ni prise de rendez-vous, ni déplacement, ni salle d'attente</p>
+             <p>Pas de multitudes de réponses</p>
+             <p>Pas de discussions illimités</p>
+      </div>
+      <h1 class="border-top border-primary w-5"></h1>
+      <div class="col-md-6 my-6">
+        <span></span><span></span>
+      </div>
+     
+      <div class="col-md-6 my-6"><br>
+        <h1>Avantages pour les médecins</h1><br>
+            <p>Le soutien et l'aide réelle aux citoyens</p>
+            <p>Le soulagement de la pression téléphonique sur le 190</p>
+            <p>Eviter les complications sanitaires</p>
+            <p>Sauver des vies à distance</p>
+      </div>
+      </div>
+    </div><br>
+    <button class="mr-2" type="button" data-toggle="modal" data-target="#modal1">Inscription patient</button>
+    <button class="ml-2"  type="button" data-toggle="modal" data-target="#modal2">Inscription médecin</button>
+  </div>
+ </div> 
+  </section>
+
+<!-- Modal for patient HTML -->
+<div id="modal1" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="modal-header">
+		
+				<h4 class="modal-title">Inscription patient</h4>	
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="/examples/actions/confirmation.php" method="post">
+					<div class="form-group">
+						<input type="text" class="form-control" name="nom" placeholder="Nom" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="prénom" placeholder="Prénom" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="email" placeholder="Email" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="mot de passe" placeholder="mot de passe" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="confirmation de mot de passe" placeholder="Confirmation de mot de passe" required="required">	
+					</div>        
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Inscription</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+ </div>
+
+ <!-- Modal for doctor HTML -->
+ <div id="modal2" class="modal fade">
+	<div class="modal-dialog modal-login">
+		<div class="modal-content">
+			<div class="modal-header">
+		
+				<h4 class="modal-title">Inscription médecin</h4>	
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form action="/examples/actions/confirmation.php" method="post">
+					<div class="form-group">
+						<input type="text" class="form-control" name="nom" placeholder="Nom" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="prénom" placeholder="Prénom" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="email" placeholder="Email" required="required">		
+					</div>
+          <div class="form-group">
+						<input type="text" class="form-control" name="mot de passe" placeholder="mot de passe" required="required">		
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="confirmation de mot de passe" placeholder="Confirmation de mot de passe" required="required">	
+					</div>        
+					<div class="form-group">
+						<button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Inscription</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>

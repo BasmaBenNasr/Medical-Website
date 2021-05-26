@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms'
 import {Routes, RouterModule} from '@angular/router';
 import { ImageMainComponent } from './image-main/image-main.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { InscriptionStickyComponent } from './inscription-sticky/inscription-sticky.component';
 
 
 
 @NgModule({
   declarations: [
-    ImageMainComponent
+    ImageMainComponent,
+    MainContentComponent,
+    InscriptionStickyComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +21,9 @@ import { ImageMainComponent } from './image-main/image-main.component';
     RouterModule
   ],
   exports:[
-    ImageMainComponent
+    ImageMainComponent,
+    MainContentComponent,
+    InscriptionStickyComponent
   ]
 })
 export class ContentModule { }
