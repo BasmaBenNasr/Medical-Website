@@ -7,6 +7,11 @@
 @import "~mdb-angular-ui-kit/assets/scss/mdb.scss"; 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+
 body{
     overflow-x: hidden;
     font-family: monospace,sans-serif;
@@ -69,8 +74,7 @@ body{
     position: absolute;
     top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%); 
 
   }
 
@@ -78,7 +82,8 @@ body{
       background-color: rgba(0, 0, 0, .3);
       color: white;
       border-radius: .5rem;
-      width: 40rem;
+      width: 60rem;
+     
   }
 
   .centered h1{
@@ -94,9 +99,3 @@ body{
 
 
 
-  @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
- 
-@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
