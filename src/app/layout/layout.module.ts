@@ -23,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   exports:[
    TopBarComponent,
-   NavComponent
+   NavComponent,
+   FooterComponent
   ]
 })
 export class LayoutModule { }

@@ -5,6 +5,8 @@ import {Routes, RouterModule} from '@angular/router';
 import { ImageMainComponent } from './image-main/image-main.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { InscriptionStickyComponent } from './inscription-sticky/inscription-sticky.component';
+import { VideoComponent } from './video/video.component';
+import { TrustedByComponent } from './trusted-by/trusted-by.component';
 
 
 
@@ -12,7 +14,9 @@ import { InscriptionStickyComponent } from './inscription-sticky/inscription-sti
   declarations: [
     ImageMainComponent,
     MainContentComponent,
-    InscriptionStickyComponent
+    InscriptionStickyComponent,
+    VideoComponent,
+    TrustedByComponent
   ],
   imports: [
     CommonModule,
@@ -23,7 +27,9 @@ import { InscriptionStickyComponent } from './inscription-sticky/inscription-sti
   exports:[
     ImageMainComponent,
     MainContentComponent,
-    InscriptionStickyComponent
+    InscriptionStickyComponent,
+    VideoComponent,
+    TrustedByComponent
   ]
 })
 export class ContentModule { }
